@@ -14,8 +14,8 @@ Delete tasks
 
 JSON-based REST API
 
-API Endpoints
-
+**API Endpoints
+**
 GET /todos – Get all tasks
 
 GET /todos/{id} – Get a task by ID
@@ -28,7 +28,7 @@ DELETE /todos/{id} – Delete a task
 
 Request / Response Examples
 
-Create Todo:
+**Create Todo:**
 
 POST /todos
 Content-Type: application/json
@@ -39,7 +39,7 @@ Content-Type: application/json
   "completed": false
 }
 
-Response:
+**Response:**
 
 {
   "id": 1,
@@ -48,7 +48,7 @@ Response:
   "completed": false
 }
 
-Get All Todos:
+**Get All Todos:**
 
 GET /todos
 
@@ -64,18 +64,18 @@ Response:
 ]
 Running Locally (Gradle)
 
-Clone the repository:
+**Clone the repository:**
 
 git clone https://github.com/username/todo-api.git
 cd todo-api
 
-Build the project:
+**Build the project:**
 
 ./gradlew build
 
 (On Windows: gradlew.bat build)
 
-Run the application:
+**Run the application:**
 
 ./gradlew bootRun
 
