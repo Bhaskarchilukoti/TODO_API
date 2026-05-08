@@ -14,8 +14,8 @@ Delete tasks
 
 JSON-based REST API
 
-**API Endpoints
-**
+**API Endpoints** 
+
 GET /todos – Get all tasks
 
 GET /todos/{id} – Get a task by ID
