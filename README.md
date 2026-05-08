@@ -28,7 +28,7 @@ DELETE /todos/{id} – Delete a task
 
 Request / Response Examples
 
-**Create Todo:**
+# Create Todo:
 
 POST /todos
 Content-Type: application/json
@@ -48,11 +48,11 @@ Content-Type: application/json
   "completed": false
 }
 
-**Get All Todos:**
+# Get All Todos:
 
 GET /todos
 
-Response:
+## Response:
 
 [
   {
