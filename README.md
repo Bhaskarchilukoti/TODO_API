@@ -1,4 +1,4 @@
-Todo API
+# Todo API
 
 A simple RESTful API for managing Todo tasks, built with Java and Gradle. Supports creating, reading, updating, and deleting tasks via JSON REST endpoints.
 
@@ -14,7 +14,7 @@ Delete tasks
 
 JSON-based REST API
 
-# API Endpoints 
+## API Endpoints 
 
 GET /todos – Get all tasks
 
@@ -28,7 +28,7 @@ DELETE /todos/{id} – Delete a task
 
 Request / Response Examples
 
-# Create Todo:
+## Create Todo:
 
 POST /todos
 Content-Type: application/json
@@ -39,7 +39,7 @@ Content-Type: application/json
   "completed": false
 }
 
-**Response:**
+## Response:
 
 {
   "id": 1,
@@ -48,7 +48,7 @@ Content-Type: application/json
   "completed": false
 }
 
-# Get All Todos:
+## Get All Todos:
 
 GET /todos
 
@@ -64,18 +64,18 @@ GET /todos
 ]
 Running Locally (Gradle)
 
-**Clone the repository:**
+## Clone the repository:
 
 git clone https://github.com/username/todo-api.git
 cd todo-api
 
-**Build the project:**
+## Build the project:
 
 ./gradlew build
 
 (On Windows: gradlew.bat build)
 
-**Run the application:**
+## Run the application:
 
 ./gradlew bootRun
 
